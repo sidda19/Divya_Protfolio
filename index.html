@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+    <div id="card1">
+    <header>
+        <nav class="navbar">
+            <div>
+                <h1 class="heading1">Protfolio</h1>
+            </div>
+            <div class="nav-links">
+                <div>
+                    <a href="#card1" class="elements">Home</a>
+                    <a href="#about" class="elements">About</a>
+                    <a href="#skills" class="elements" >Skills and Projects</a>
+                    <a href="#contact" class="elements">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="d-flex flex-row justify-content-center">
+        <div  class ="d-flex flex-row flex-wrap justify-content-start">
+            <div>
+            <img src="image.jpg" class="profile-pic" alt="Divya" />
+            </div>
+            <div class="text">
+                <h1 class="heading2">Divya</h1>
+                <p class="para1">
+                    <span id="typed-text"></span>
+                </p>
+                <div class="button">
+                    <a href="#skills" class="btn">View my work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <main>
+        <section id="about">
+        <div class="about-container">
+            <h2 class="about-title">About Me</h2>
+            <div class="d-flex flex-row justify-content-start">
+                <div class="box1">
+                        <h1 class="side">
+                            <span class="icon fa-solid fa-graduation-cap"></span>
+                            <span class="side">AI Student</span>
+                        </h1>
+                        <h1 class="side">
+                            <span class="icon fa-solid fa-laptop-code"></span>
+                            <span class="side">Web Dev Learner</span>
+                        </h1>
+                        <h1 class="side">
+                            <span class="icon fa-solid fa-palette"></span>
+                            <span class="side">Design Lover</span>
+                        </h1>
+                        <h1 class="side">
+                            <span class="icon fa-solid fa-puzzle-piece"></span>
+                            <span class="side">Problem Solver</span>
+                        </h1>
+                </div>
+                <div class="about-content">
+                    <p>
+                        Hi! I'm <strong>Divya</strong>, a passionate learner currently pursuing <strong>Artificial Intelligence</strong> at <strong>IIT Gandhinagar</strong>.
+                        I love exploring new things — whether it's discovering a new place 🌍 or picking up a new skill. I'm naturally curious, and that's what keeps me moving forward.
+                    </p>
+                    <p>
+                        I enjoy design and creativity, especially when working with <strong>Canva</strong>. Right now, I’m learning <strong>Web Development</strong> because I love the idea of creating websites from scratch that can make life easier or more beautiful.
+                        I’ve also started learning <strong>Data Structures and Algorithms</strong>, just for the fun of problem-solving 🧠. It feels like solving a puzzle every time!
+                        I believe in learning by doing — this portfolio is my space to experiment, improve, and share what I build along the way.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="skills">
+            <div class="skills-box">
+                <h1 class="heading3 pb-4">Skills</h1>
+                <ul class="skills-list">
+                    <li class="list">Programming Languages : <span> Python, C, My SQL</span></li>
+                    <li class="list">Web technologies : <span> CSS, HTML, Javascript</span></li>
+                    <li class="list">Tools : <span> VS Code, Canva, Aurdino</span></li>
+                </ul>
+            </div>
+            <h1 class="heading3 pt-4">Projects</h1>
+            <div class="projects-box d-flex flex-row flex-wrapjustify-content-between pb-3">
+                <div class="d-flex flex-row flex-wrap justify-content-start">
+                    <div class="aurdino">
+                        <img src="image3_aurdino.jpg" class="image1"/>
+                        <h2 class="project-title">🎵  Music Practice Assistant (Arduino)</h2>
+                        <p class="description">
+                            An Arduino-based tool for beginners to practice and identify musical notes. 
+                            It generates random note patterns, listens via a microphone, and gives 
+                            real-time feedback using LEDs and the Serial Monitor.
+                        </p>
+                        <div class="d-flex flex-wrap flex-column justify-content-start">
+                            <p class="links">Youtube vedio :  <a href="https://youtu.be/Or_M5m2dxbo?si=E0sKeyRkiuBdm_Ot" target="_blank" class="click">▶ Watch Video</a></p>
+                            <p class="links">Report :  <a href="aurdino_project1_music.pdf" target="_blank" class="click">📄 View Report</a></p>
+                        </div>
+                    </div>
+                    <div class="aurdino blog">
+                        <h2 class="project-title">🧩 Blog Project: <em>Missingno</em></h2>
+                        <p class="description">
+                            A collaborative blog created by a group of three students, 
+                            including me. The blog explores the concept of "Missingno" 
+                            — a famous glitch from the Pokémon games — and dives into its 
+                            technical, cultural, and creative impact.
+                        </p>
+                        <p class="description">Blog was built using HTML, CSS, and GitHub Pages</p>
+                        <div class="project-links d-flex flex-column flex-wrap justify-content-start">
+                            <p class="links">Blog link :  <a href="https://sidda19.github.io/Missingno/" target="_blank" class="click">🌐 View Blog</a> </p>
+                            <p class="links">Youtube vedio :  <a href="https://youtu.be/SSztKSX2Drw?si=L77YdOXQYoaiV9aJ" target="_blank" class="click">▶ Watch Video</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="heading3">Education</h1>
+            <ul>
+                <li class="list">College : <span>  IIT Gandhinagar(2024-2028)</span></li>
+                <li class="list">Course : <span>  Artificial Intelligence</span></li>
+                <li class="list">School : <span>  Sasi</span></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <div>
+                <h1 class="heading4">Contact</h1>
+                <div class="card3">
+                    <div class="card4 d-flex flex-row flex-wrap justify-content-start">
+                        <img src="https://static.vecteezy.com/system/resources/previews/022/484/516/non_2x/google-mail-gmail-icon-logo-symbol-free-png.png"
+                        class="img1"/>
+                        <h2 class="heading5 ">G-Mail: <a href="" target="_blank" rel="noopener" class="links link"> siddadivya1905@gmail.com</a></h2>
+                    </div>
+                    <div  class="card4 d-flex flex-row justify-content-start">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4096/4096186.png"
+                        class="img1"/>
+                        <h2 class="heading5">Linkedln: <a href="https://www.linkedin.com/in/divya-sidda-2345b5322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" class="links link"> Divya Sidda</a></h2>
+                    </div>
+                    <div class="card4 d-flex flex-row justify-content-start">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s.png"
+                        class="img1"/>
+                        <h2 class="heading5">Github: <a href="https://github.com/sidda19" target="_blank" rel="noopener" class="links link"> sidda19</a></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            var typed = new Typed('#typed-text', {
+                strings: [
+                "Aspiring Web Developer 💻",
+                "Canva Design Enthusiast 🎨",
+                "Arduino Explorer 🎶",
+                "Loves Learning New Tools 🚀"
+                ],
+                typeSpeed: 60,
+                backSpeed: 30,
+                backDelay: 1000,
+                loop: true
+            });
+        </script>
+
+        
+    </main>
+    <footer class="d-flex flex-row flex-wrap justify-content-center">
+        <p>© 2025 Divya. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
