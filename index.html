@@ -31,7 +31,7 @@
     </header>
     <section id="home" class="d-flex flex-column flex-md-row justify-content-center">
         <div  class ="d-flex flex-row flex-wrap justify-content-start">
-            <div>
+            <div class="d-none d-md-block">
             <img src="image.jpg" class="profile-pic" alt="Divya" />
             </div>
             <div class="text">
@@ -74,7 +74,7 @@
                             <span class="side">Problem Solver</span>
                         </h1>
                 </div>
-                <div class="about-content">
+                <div class="about-content d-none d-md-block">
                     <p>
                         Hi! I'm <strong>Divya</strong>, a passionate learner currently pursuing <strong>Artificial Intelligence</strong> at <strong>IIT Gandhinagar</strong>.
                         I love exploring new things — whether it's discovering a new place 🌍 or picking up a new skill. I'm naturally curious, and that's what keeps me moving forward.
@@ -85,6 +85,11 @@
                         I believe in learning by doing — this portfolio is my space to experiment, improve, and share what I build along the way.
                     </p>
                 </div>
+                 <div class="about-content d-md-none">
+                    <p id="short-about">
+                        Hi! I'm Divya, a passionate learner currently studying AI at IIT Gandhinagar.
+                    </p>
+                    <a href="about_small.html" class="read">Read More..</a>
             </div>
         </div>
         </section>
@@ -172,7 +177,21 @@
                 loop: true
             });
         </script>
+        <script>
+            const btn = document.getElementById('read-more-btn');
+            const shortPara = document.getElementById('short-about');
+            const fullPara = document.getElementById('full-about');
 
+            btn.addEventListener('click', () => {
+                if (fullPara.style.display === 'none') {
+                fullPara.style.display = 'block';
+                btn.textContent = 'Read Less';
+                } else {
+                fullPara.style.display = 'none';
+                btn.textContent = 'Read More';
+                }
+            });
+        </script>
         
     </main>
     <footer class="d-flex flex-row flex-wrap justify-content-center">

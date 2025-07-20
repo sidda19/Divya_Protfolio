@@ -308,8 +308,17 @@ footer{
     text-align: center;
     padding-top: 10px;
 }
+.read{
+    color: #e6750c;
+    cursor: pointer;
+    transition: all 0.4s ease
+}
+.read:hover{
+    transform: scale(0.5);
+    color: #f77903;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     width: 90%;
@@ -338,6 +347,7 @@ footer{
   .text{
     padding: 5px;
     text-align: center;
+    align-items: center;
   }
   .heading2 {
     padding: 10px;
@@ -379,18 +389,15 @@ footer{
   width: 40px;
   height: auto;
 }
-
-
-  .heading5 {
+.heading5 {
     font-size: 18px;
   }
-
-  .card4 {
+.card4 {
     flex-direction: column;
     align-items: start;
+    align-items: center;
   }
 
-  
 }
 
 
