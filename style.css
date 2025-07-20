@@ -308,16 +308,21 @@ footer{
     text-align: center;
     padding-top: 10px;
 }
+/*small*/
 .read{
     color: #e6750c;
     cursor: pointer;
+    font-size: 14px;
     transition: all 0.4s ease
 }
 .read:hover{
     transform: scale(0.5);
     color: #f77903;
 }
-
+.about_small{
+    padding: 15px;
+    font-size: 14px;
+}
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -359,7 +364,9 @@ footer{
     font-size: 18px;
   }
   .btn{
-    width: 30vw;
+    width: auto;
+    text-align: center;
+    padding-bottom: 30px;
   }
 
   .box1 {
@@ -375,15 +382,22 @@ footer{
   .about-container {
     flex-direction: column;
   }
+  .about-title{
+    border-bottom: #e6750c;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 2px;
+  }
   .mini-text {
   text-align: center;
   color: #fcd303;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
   .aurdino {
     width: 100%;
     margin: 15px 0;
+    margin-bottom: 10px;
   }
   .img1 {
   width: 40px;
