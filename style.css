@@ -2,7 +2,15 @@
     font-family:Poppins ;
     padding: 0px;
  }
- body{
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+body{
      margin:0PX;
      padding: 0px;
      box-sizing: border-box;
@@ -299,6 +307,90 @@ footer{
     background-color: #070500;
     text-align: center;
     padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #home {
+    flex-direction: row !important;
+    padding: 30px;
+  }
+
+  .profile-pic {
+    width: 30vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .text{
+    padding: 5px;
+    text-align: center;
+  }
+  .heading2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .para1{
+    font-size: 18px;
+  }
+  .btn{
+    width: 30vw;
+  }
+
+  .box1 {
+    border: none;
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 2px solid #e6750c;
+  }
+  .about-content{
+    font-size: 9px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+  .mini-text {
+  text-align: center;
+  color: #fcd303;
+  margin-top: 20px;
+  font-size: 14px;
+}
+  .aurdino {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .img1 {
+  width: 40px;
+  height: auto;
+}
+
+
+  .heading5 {
+    font-size: 18px;
+  }
+
+  .card4 {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  
 }
 
 
