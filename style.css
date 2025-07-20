@@ -323,6 +323,7 @@ footer{
     padding: 15px;
     font-size: 14px;
 }
+
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -364,9 +365,9 @@ footer{
     font-size: 18px;
   }
   .btn{
-    width: auto;
     text-align: center;
     padding-bottom: 30px;
+    width: 100%;
   }
 
   .box1 {
@@ -397,7 +398,9 @@ footer{
   .aurdino {
     width: 100%;
     margin: 15px 0;
-    margin-bottom: 10px;
+  }
+  .blog{
+    margin-top: 30px;
   }
   .img1 {
   width: 40px;
@@ -411,7 +414,10 @@ footer{
     align-items: start;
     align-items: center;
   }
-
+ btn-home{
+    background-color: #ea7005;
+    width: 100%;
+ }
 }
 
 
